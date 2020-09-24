@@ -1,0 +1,116 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.nav{
+    background-color: #ddd;
+}
+
+.lead{
+    font-size: 1rem;
+}
+
+.display-4{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar-brand{
+    width: 5em;
+}
+
+.carousel{
+    background-image: url('images/header.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:15rem;
+    text-align: center;
+    color: #fff;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.profile{
+    height: 10em;
+    margin-top: 2em;
+}
+
+.profile img{
+    width: 10em;
+}
+
+.visi-misi {
+    flex-wrap: wrap;
+    color: #444;
+}
+
+.visi-misi-child{
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+.visi-misi-child h2{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.program{
+    background-color: #e9ecef;
+    padding: 2rem 1rem;
+    color: #444;
+}
+
+.program-flex{
+    font-size: 0.8rem;
+    text-align: left;
+    width: 100%;
+}
+
+.program-child-1 {
+    flex: 1;
+}
+
+.program-child-2 {
+    flex: 1;
+}
+
+.program h2{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.team{
+    display: flex;
+    line-height: 15em;
+}
+
+.person{
+    line-height: 0.2em;
+}
+
+.person img{
+    width: 20%;
+}
+
+.person h2{
+    font-size:0.9rem;
+}
+
+.portofolio{
+	display: grid;
+	grid-gap: 20;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.portofolio img{
+	width: 100%;
+	box-shadow: var(--shadow);
+}
+
