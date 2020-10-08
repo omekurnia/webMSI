@@ -22,13 +22,10 @@ body{
 
 .carousel{
     background-image: url('images/header.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    height: 40vh;
+    min-height: 300px;
     background-size: cover;
-    background-position: 100% 100%;
-    height:20rem;
-    text-align: center;
-    color: #fff;
+    text-align:center;
 }
 
 .centered {
@@ -36,12 +33,62 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
+
+.centered img{
+    width: 10em; 
+}
 
 .profile{
     background-color: #e9ecef;
     padding: 2rem 1rem;
     color: #444;
+}
+
+@media only screen and (max-width: 600px) {
+    .profile{
+        text-align: left;
+    }
+
+    .visi-misi .display-4 {
+        text-align: left;
+    }
+
+    .team {
+        display: block;
+    }
+
+    .kantor {
+        display: block;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .surat-pengesahan img {
+        width: 20em;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .team {
+        display: inline-grid;
+        grid-template-rows: 200px 200px 200px;
+        grid-template-columns: 200px 200px 200px;
+        grid-gap: 3px;
+    }
+
+    .kantor {
+        display: inline-grid;
+        grid-template-rows: 400px 400px;
+        grid-template-columns: 400px 400px;
+        grid-gap: 3px;
+    }
+
+    .surat-pengesahan img {
+        height: 50em;
+    }
 }
 
 .lead {
@@ -53,7 +100,12 @@ body{
     width: 10em;
 }
 
+.kantor img {
+    width: 20em;
+}
+
 .visi-misi {
+    padding: 2rem 1rem;
     flex-wrap: wrap;
     color: #444;
 }
@@ -93,21 +145,27 @@ body{
     font-size: 1rem;
 }
 
-.team{
-    display: flex;
-    line-height: 15em;
-}
+/*.team{
+    display: inline-grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 3px;
+}*/
 
 .person{
-    line-height: 0.2em;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    font-size: 3em;*/
 }
 
 .person img{
-    width: 20%;
+    width: 5em;
 }
 
 .person h2{
-    font-size:0.9rem;
+    font-size:0.8rem;
 }
 
 .portofolio{
