@@ -22,6 +22,7 @@ body{
 
 .carousel{
     background-image: url('images/header.jpg');
+    background-blend-mode: darken;
     height: 40vh;
     min-height: 300px;
     background-size: cover;
@@ -36,7 +37,7 @@ body{
 }
 
 .centered img{
-    width: 10em; 
+    width: 20em; 
 }
 
 .profile{
