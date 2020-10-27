@@ -29,6 +29,14 @@ body{
     text-align:center;
 }
 
+.display-title{
+    font-size: 1em;    
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
 .centered {
     position: absolute;
     top: 50%;
@@ -176,7 +184,7 @@ body{
 }
 
 .person img{
-    width: 5em;
+    width: 10em;
 }
 
 .person h2{
