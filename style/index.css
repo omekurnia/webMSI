@@ -144,6 +144,23 @@ body{
     font-size: 1rem;
 }
 
+.compro {
+    display: flex;
+    padding: 2rem 1rem;
+    color: #444;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.compro-child {
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+
 .program{
     background-color: #e9ecef;
     padding: 2rem 1rem;
