@@ -1,14 +1,161 @@
 body{
     text-align: center;
-    font-family: adam.cg, sans-serif, roboto, helvetica;
+    font-family: Arial, Helvetica, sans-serif
 }
 
-.nav{
-    background-color: #ddd;
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 60px;
+    margin-bottom: 15px;
+    margin-right: -10px;
+    margin-left: -10px;
+    background-color: ghostwhite;
 }
 
-.lead{
-    font-size: 1rem;
+.navbar-logo {
+    height: 50px;
+    margin-left: 50px;
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.navbar-menu div {
+    text-decoration: none;
+    color: dodgerblue;
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+.navbar-menu div:hover {
+    text-decoration: none;
+    color: #bbb;
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+.navbar-menu button {
+    background-color: dodgerblue;
+    height: 30px;
+    border-style: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.navbar-menu button:hover {
+    background-color: #bbb;
+    height: 30px;
+    border-style: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+#banner {
+    height: 500px;
+    background: url('images/header.jpg') no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    width: 100%;
+}
+
+.banner-hero {
+    text-align: center;
+}
+
+.banner-hero img {
+    height: 70px;
+    margin-top: 150px;
+}
+
+.banner-hero h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.banner-hero p {
+    font-size: 12px;
+    color: #fff;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-style: italic;
+}
+
+.container-header {
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+.container-body {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container-body-sub-title {
+    text-align: left;
+    color: dodgerblue;
+}
+
+.container-body-sub-text {
+    font-size: 12px;
+    color: #444;
+    width: 550px;
+    text-align: left;
+}
+
+.container-button {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.button-download {
+    background-color: dodgerblue;
+    height: 30px;
+    width: 200px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.button-download-japanese {
+    margin-top: 3px;
+}
+
+.button-download-indonesia {
+    margin-top: 6px;
+}
+
+.button-download:hover {
+    background-color: #fff;
+    height: 30px;
+    width: 200px;
+    border-style: solid;
+    border-color: dodgerblue;
+    border-radius: 5px;
+    text-decoration: none;
+    color: dodgerblue;
+    font-weight: 600;
 }
 
 .display-4{
